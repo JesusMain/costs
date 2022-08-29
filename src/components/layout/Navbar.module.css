@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 2em;
+}
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.item{
+/*para afastar cada um dos itens */
+    margin-right: 1em;
+
+}
+.item a{
+    color: #fff;
+    /*retira sublinhado*/
+    text-decoration: none;
+}
+/*hover--passa o mouse em cima muda*/
+.item a:hover{
+    color: #fb3;
+}

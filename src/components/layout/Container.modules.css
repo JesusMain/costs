@@ -1,11 +1,11 @@
 .container{
     /*Largura limite*/
-    width: 1200px;
+    width: 1750px;
     display: flex;
     justify-content: space-between;
     margin: auto;
     flex-wrap: wrap;
-    background-color: aqua;
+
 }
 .min-height {
     min-height: 75%;
