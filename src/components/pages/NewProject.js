@@ -5,7 +5,7 @@ import styles from './NewProject.module.css'
 
 function NewProject(){
     /*useNavegate ajuda a redirecionar para outra pagina */
-    const navegate = useNavigate();
+    const navegate = useNavigate()
 
     function createPost(project){
         //inicialização cost e services
@@ -23,6 +23,7 @@ function NewProject(){
     .then((data) =>{
         console.log(data)
         //redirect
+        navegate('/projects', {message: 'Projeto criado com sucesso!'})
     })
     .catch((err) => console.log(err))
     }
